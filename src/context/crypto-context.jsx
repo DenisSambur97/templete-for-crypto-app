@@ -37,7 +37,8 @@ export default function CryptoContextProvider({ children }) {
                     method: 'GET',
                     headers: {
                         accept: 'application/json',
-                        'X-API-KEY': import.meta.env.VITE_REACT_APP_API_KEY,
+                        // 'X-API-KEY': import.meta.env.VITE_REACT_APP_API_KEY,
+                        'X-API-KEY': 'Au4ppY9xF18lL+cRCubne76PZsMpNGzkRmunHcIhx6o=',
                     },
                 });
 
